@@ -36,13 +36,11 @@ li a{
     color: white; 
     text-decoration: none; 
     font-size: 30px; 
-    text-shadow: 2px 2px 2px rgb(243, 239, 239);
-    
+    text-shadow: 2px 2px 2px rgb(243, 239, 239);    
 }
 
 
-li:hover
-{
+li:hover{
     background-color: rgb(79, 127, 199);
 }
 
@@ -50,25 +48,25 @@ li:hover
 #yout{
 color:rgb(241, 9, 9);
 text-shadow: 2px 2px 2px rgb(243, 239, 239);
-
 }
 
 
 #mps{
 color:rgb(11, 243, 11);
 text-shadow: 2px 2px 2px rgb(243, 239, 239);
-
 }
+
 
 #div1{
     display: flex; 
     justify-content: space-between;
+    margin-bottom: 7%;
     margin-right: 15%;
     margin-left: 5%;
     margin-top: 3%;
     border-radius: 10px;
-
 }
+
 
 #imgif{
     border-radius: 10px;
@@ -80,8 +78,7 @@ text-shadow: 2px 2px 2px rgb(243, 239, 239);
     width:15%;
     height: 15%;
     padding-top: 0%;
-    border-radius: 10px;
-    
+    border-radius: 10px;   
 }
 
 
@@ -102,12 +99,6 @@ text-shadow: 2px 2px 2px rgb(243, 239, 239);
     padding-top: 0%;
 }
   
-
-#appli{
-    display: flex;
-    width:180%;
-    border-radius: 10px;
-}   
     
 
 #para{
@@ -119,8 +110,7 @@ text-shadow: 2px 2px 2px rgb(243, 239, 239);
 
 #texte1{
     font-size: 150%;
-    color:white;
-    
+    color:white;   
 }
 #texte1:hover{
     color:red;
@@ -136,6 +126,8 @@ text-shadow: 2px 2px 2px rgb(243, 239, 239);
     color:rgb(255, 123, 0);
     zoom: 2;
 }
+
+
 
 #texte3{
     font-size: 130%;
@@ -164,13 +156,16 @@ text-shadow: 2px 2px 2px rgb(243, 239, 239);
     WIDTH: 230px;
     justify-content: space-between;
     scroll-padding-bottom: 10%;
+    margin-leftt: 30%;
 }
 
 
 .doigt
 {
-    width: 20%;
+    width: 20%;    
 }
+
+
 .doigt-lien:hover .doigt{
     animation: doigt 1s infinite ;
     }
